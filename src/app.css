@@ -1,0 +1,65 @@
+.app {
+  text-align: center;
+}
+
+.app--logo {
+  height: 80px;
+}
+
+.app--header {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 20px 0;
+}
+
+.app--chart {
+  position: relative;
+  margin: 10px 0 20px 0;
+}
+
+.app--daterange {
+  position: absolute;
+  right: 35px;
+  top: 10px;
+}
+
+.app--layout {
+  width: 80%;
+  margin: auto;
+}
+
+.app--heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app--instruments, .app--filter {
+  flex-grow: 1;
+  margin: 10px 0 20px 0;
+}
+
+.app--filter {
+  margin-left: 40px;
+}
+
+.app--instruments > h2, .app--filter > h2 {
+  border-bottom: solid 1px gray;
+  font-weight: 200;
+  font-size: 22px;
+  text-align: left;
+}
+
+.app--buttons {
+  text-align: left;
+}
+
+.app--button {
+  margin-right: 10px;
+}
+
+.app--filter--to {
+  margin-left: 15px;
+}
